@@ -1,0 +1,3 @@
+创建：virtualenv <虚拟环境名称>
+进入：activate
+退出：deactivate

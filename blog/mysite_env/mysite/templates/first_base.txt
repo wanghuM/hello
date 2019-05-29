@@ -1,0 +1,31 @@
+base.html
+<div class="nav">
+        <a class="logo" href="{% url 'home' %}">
+            <h3>个人博客网站</h3>
+        </a>
+        <a href="/">首页</a>
+        <a href="{% url 'blog_list' %}">博客</a>
+ </div>
+
+    <!-- 下划线<hr> -->
+
+base.css
+div.nav{
+    background-color:#eee;
+    border-bottom: 1px solid #ccc;/*全部边界- 粗细 形状 颜色*/
+    padding: 10px 5px;
+}
+
+div.nav a {
+    text-decoration: none; /*下划线颜色*/
+    color: black;
+    padding: 5px 10px; /* 边距 上下 左右*/ 
+}
+
+div.nav a.logo{
+    display: inline-block;
+    font-size: 120%;
+}
+
+
+ css教程：w3csholl、韩顺平 。
